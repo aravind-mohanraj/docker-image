@@ -10,7 +10,7 @@ RUN tar -xvzf cfcli.tgz
 RUN chmod 755 cf
 RUN wget https://pcf-cfcli.s3.ap-south-1.amazonaws.com/settings.xml
 RUN mv settings.xml /usr/share/maven/conf/settings.xml
-RUN cat /usr/share/maven/conf/settings.xml
+
 
 
 
