@@ -8,6 +8,8 @@ RUN apt-get install -y wget
 RUN wget -O cfcli.tgz "https://cli.run.pivotal.io/stable?release=linux64-binary&source=github"
 RUN tar -xvzf cfcli.tgz
 RUN chmod 755 cf
+RUN wget
+RUN mv settings.xml /usr/share/maven/conf/settings.xml
 
 
 
